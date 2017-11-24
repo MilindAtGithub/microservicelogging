@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: logging
+server:
+  port: 9001
+#logging:
+#  file: ${LOG_DIR:/tmp/${spring.application.name}.log}
+#  path: ${LOG_DIR:./tmp/}
+
+endpoints:
+  loggers:
+    sensitive: false
